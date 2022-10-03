@@ -1,0 +1,3 @@
+sweets =int(input("How many sweets do you have?"))
+pupils =int(input("How many pupils are attending?"))
+print("Each pupil will get", int(sweets / pupils),"sweets, and there will be", sweets % pupils,"sweets left over")
