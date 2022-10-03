@@ -1,0 +1,5 @@
+students = int(input("How many students are there?"))
+groupsize = int(input("What is the required group size?"))
+group = int(students / groupsize)
+leftover = students % groupsize
+print("There will be",group," groups, with",leftover," students left over.")
